@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 500;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+span
+{
+    color: #ee4248;
+}
+.wrapper
+{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.navbar
+{
+	position: fixed;
+
+	z-index: 1000;
+
+	width: 100%;
+
+	background-color: #fff;
+
+	top: 0px;
+}
+.navbar__menu
+{
+    display: flex;
+
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .25);
+
+    justify-content: space-evenly;
+
+}
+.body
+{
+	margin: 100px 0 0 0;
+	flex: 1 1 auto;
+}
+.logo
+{
+    margin: 0 0 0 0;
+}
+.menu__lists
+{
+    display: flex;
+
+    margin: 20px 0 0 0;
+}
+.menu__list
+{
+    margin: 0 10px 0 10px;
+
+    list-style-type: none;
+}
+.menu__item
+{
+    text-decoration: none;
+
+    color: #1f2e35cc;
+}
+.menu__icons
+{
+    margin: 15px 0 0 0;
+}
+.menu__icon
+{
+    margin: 0 10px 0 10px;
+
+    text-decoration: none;
+}
+.icon
+{
+    margin: 0 5px 0 5px;
+}
+.section__header
+{
+    width: 1125px;
+    height: 500px;
+    margin: 50px 0 0 10em;
+}
+.header__content 
+{
+	display: flex;
+    justify-content: space-evenly;
+}
+.def__text
+{
+    font-size: 50px;
+}
+.header__subtitle
+{
+    font-size: 20px;
+
+    margin: 30px 0 0 0;
+}
+.header__button
+{
+    font: normal normal 20px/1 'Roboto', sans-serif;
+
+    display: inline-block;
+
+    padding: 20px 45px;
+    margin: 30px 0 0;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #fff;
+    border-radius: 4px;
+    background: #ee4248;
+}
+.section__info 
+{
+	width: 100%;
+	height: 500px;
+	background-color: #F6F6F6;
+	margin: 0 0 80px 0;
+}
+.info__content
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+.info__intro
+{
+	margin: 50px 0 0 0;
+}
+.span__info 
+{
+	font-size: 32px;
+}
+.product__title
+{
+	text-align: center;
+}
+.card
+{
+	display: block;
+}
+.card__title
+{
+	color: #EE4248;
+}
+.card__btn
+{
+	 font: normal normal 16px/1 'Roboto', sans-serif;
+
+    display: inline-block;
+
+    padding: 8px 16px;
+    margin: 10px 0 0 0;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #fff;
+    border-radius: 4px;
+    background: #ee4248;
+}
+.product__cards
+{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 0 0 10em;
+}
+.card
+{
+	margin: 0 10px 0 0;
+}
+.footer
+{
+	margin: 0 0 0 0;
+}
+.footer__content
+{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10em 0 0 -10em;
+}
+.footer__section_2
+{
+	margin: 2.5em 0 0 0;
+}
+.footer__title
+{
+	font-size: 18px;
+}
